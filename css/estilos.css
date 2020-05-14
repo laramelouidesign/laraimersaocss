@@ -1,0 +1,43 @@
+body {
+    background-image: url('https://i.imgur.com/uKnKuwG.jpg'); 
+    background-size: auto 100vh;
+    font-family: Impact;   
+   }
+   
+   .menu {
+     border:2px solid black;
+     padding:1px;
+     box-align: center;
+     background-color: white;
+     box-shadow: 0 8px 6px -6px rgba(68, 68, 68, 0.6);
+   
+   }
+   
+   .menu ul {
+     display: flex;
+     justify-content: space-evenly;
+   }
+   
+   .menu li {
+     list-style: none;
+   }
+   
+   a {
+     color: #3B335C;
+     text-decoration: none;
+   }
+   
+   a:hover {
+     text-decoration: underline;
+   }
+   
+   .site-title {
+     font-weight: bold, DejaVu Sans Mono;
+     text-align: center;
+    }
+   
+   .site-subtitle {
+     font-family: DejaVu Sans Mono;
+     text-align: center;
+     font-style: normal;
+   }
